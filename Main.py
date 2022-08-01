@@ -24,7 +24,7 @@ def evaluate_postfix_expression(self, expression):
         self.pop()
         self.pop()
         self.push(result)
-    return self.pop()
+        return self.pop()
 
 # Do not change the following code
 postfix_expression = input()  # Read postfix expression
